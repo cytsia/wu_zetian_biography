@@ -31,6 +31,7 @@ h1 {
 }
 .about-img {
   position: absolute;
+  height: 765px;
   min-height: 100%;
   min-width: 50%;
 }
@@ -56,7 +57,6 @@ p {
 
 .controversy-img {
   position: absolute;
-  overflow: hidden;
   min-height: 100%;
   min-width: 50%;
   background-position-y: 50%;
@@ -64,17 +64,16 @@ p {
 
 .controversy-content {
   margin-left: 50%;
-  padding: 50px 100px;
-  margin-top: 15%;
+  padding: 0px 100px;
+  margin-bottom: 20%;
   display: inline-block;
 }
 
-.achievements-img {
+.a-crop img {
   position: absolute;
-  overflow: hidden;
-  min-height: 100%;
+  min-height: 955px;
   min-width: 50%;
-  background-position-y: 50%;
+  right: 50%;
 }
 
 .achievements-content {
@@ -122,6 +121,7 @@ footer h5 {
 #name,
 #sign-up {
   margin: 10px 0px;
+  margin-left: 10px;
 }
 .newsletter {
   position: absolute;
@@ -135,4 +135,23 @@ footer h5 {
   margin-top: 7%;
   margin-left: 35%;
   width: 30%;
+}
+
+#submit {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  background-color: black;
+}
+.crop {
+  width: 300px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.follow-us,
+.newsletter {
+  padding-top: 2%;
 }
